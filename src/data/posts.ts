@@ -22,20 +22,21 @@ export const blogPosts = [
   { id: '013', file: '13.knowladge', title: '杂七杂八的知识点', summary: '不知道从哪搞得杂七杂八的知识点，感觉很重要，记录下来', date: '2026-05-25' },
   { id: '014', file: '14.Node.js', title: 'Node.js学习', summary: 'node.js学的总结', date: '2026-05-25' },
   { id: '015', file: '15.express', title: 'express从入门到精通', summary: 'express学习笔记', date: '2026-05-31' },
-  { id: '016', file: '16.issue', title: '前后端链接的问题', summary: '在前后端连接的过程中遇到的问题', date: '2026-6-2' },
-  { id: '017', file: '17.Ajax', title: 'Ajax接受数据', summary: '不刷新整个页面，通过 JavaScript 向服务器发送/接收数据', date: '2026-6-3' },
-  { id: '018', file: '18.FistProject', title: '面试题知识库项目知识点总结', summary: '第一个项目，里面总结了开发过程中知识点的学习和易错点', date: '2026-6-5' },
-  { id: '019', file: '19.Regex', title: '正则表达式(Regex)', summary: '正则表达式的学习，它是一个高级文本查找与替换的硬核工具', date: '2026-6-24' },
-  { id: '020', file: '20.github', title: 'github自动部署服务器', summary: '学习使用如何将github中的代码自动推送到对应的服务器并自动部署', date: '2026-6-27' },
-  { id: '021', file: '21.uniapp', title: 'uni-app学习', summary: '学习如何使用uniapp以及和vue3原生写法的区别', date: '2026-6-28' },
-  { id: '022', file: '22.python', title: 'python学习', summary: 'python入门到精通', date: '2026-7-15' },
-  { id: '023', file: '23.fastapi', title: 'fastapi学习', summary: 'fastapi入门到精通', date: '2026-7-22' },
-  { id: '024', file: '24.fastapi', title: 'Pydantic校验学习', summary: '学习Pydantic对fastapi的数据进行校验', date: '2026-7-23' },
-  { id: '025', file: '25.version', title: '软件版本号的规范', summary: '记录开发过程总版本号命名的问题', date: '2026-7-28' },
-  { id: '026', file: '26.ORM', title: 'ORM对象关系映射', summary: 'Object Relational Mapping（对象关系映射）学习', date: '2026-8-1' },
+  { id: '016', file: '16.issue', title: '前后端链接的问题', summary: '在前后端连接的过程中遇到的问题', date: '2026-06-02' },
+  { id: '017', file: '17.Ajax', title: 'Ajax接受数据', summary: '不刷新整个页面，通过 JavaScript 向服务器发送/接收数据', date: '2026-06-03' },
+  { id: '018', file: '18.FistProject', title: '面试题知识库项目知识点总结', summary: '第一个项目，里面总结了开发过程中知识点的学习和易错点', date: '2026-06-05' },
+  { id: '019', file: '19.Regex', title: '正则表达式(Regex)', summary: '正则表达式的学习，它是一个高级文本查找与替换的硬核工具', date: '2026-06-24' },
+  { id: '020', file: '20.github', title: 'github自动部署服务器', summary: '学习使用如何将github中的代码自动推送到对应的服务器并自动部署', date: '2026-06-27' },
+  { id: '021', file: '21.uniapp', title: 'uni-app学习', summary: '学习如何使用uniapp以及和vue3原生写法的区别', date: '2026-06-28' },
+  { id: '022', file: '22.python', title: 'python学习', summary: 'python入门到精通', date: '2026-07-15' },
+  { id: '023', file: '23.fastapi', title: 'fastapi学习', summary: 'fastapi入门到精通', date: '2026-07-22' },
+  { id: '024', file: '24.Pydantic', title: 'Pydantic校验学习', summary: '学习Pydantic对fastapi的数据进行校验', date: '2026-07-23' },
+  { id: '025', file: '25.version', title: '软件版本号的规范', summary: '记录开发过程总版本号命名的问题', date: '2026-07-28' },
+  { id: '026', file: '26.SQLAlchemy', title: 'SQLAlchemy对象关系映射', summary: '基于python的orm概念，SQLAlchemy的学习', date: '2026-08-01' },
+  { id: '027', file: '27.AI', title: 'AI效率提升', summary: '如何规范化的使用ai，提升ai的效率和准确率', date: '2026-08-06' },
 ]
 
 /** 根据路由参数 id（如 '001'）查找文章 */
-export function findPostById(id) {
+export function findPostById(id: string) {
   return blogPosts.find((post) => post.id === id)
 }
