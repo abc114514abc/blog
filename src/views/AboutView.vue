@@ -21,7 +21,7 @@
         </li>
       </ul>
 
-      <router-link to="/blog" class="btn-kawaii profile-cta">
+      <router-link to="/posts" class="btn-kawaii profile-cta">
         <span>📖</span> 去看看日记
       </router-link>
     </div>

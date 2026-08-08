@@ -1,6 +1,6 @@
 <template>
   <section class="blog-post-page page-wrap">
-    <router-link to="/blog" class="back-link">
+    <router-link to="/posts" class="back-link">
       <span class="back-arrow">←</span> 返回日记本
     </router-link>
 

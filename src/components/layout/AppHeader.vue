@@ -27,7 +27,7 @@ import ThemeToggle from '@/components/layout/ThemeToggle.vue'
 
 const navItems = [
   { to: '/', label: '主页', emoji: '🏠' },
-  { to: '/blog', label: '日记本', emoji: '📖' },
+  { to: '/posts', label: '日记本', emoji: '📖' },
   { to: '/about', label: '关于', emoji: '💫' },
 ]
 </script>

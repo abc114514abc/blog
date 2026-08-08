@@ -2,7 +2,7 @@
 /**
  * 博客文章元数据
  *
- * - id：路由用编号，如 '001' → /#/blog/001
+ * - id：路由用编号，如 '001' → /posts/001
  * - file：public/blog 下的 Markdown 文件名（不含 .md），可与 id 不同
  *   例如 file: 'Vue3_Study' 对应 public/blog/Vue3_Study.md
  */

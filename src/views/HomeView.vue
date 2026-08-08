@@ -10,7 +10,7 @@
       </p>
 
       <div class="hero-actions">
-        <router-link to="/blog" class="btn-kawaii">
+        <router-link to="/posts" class="btn-kawaii">
           <span>📖</span> 打开日记本
         </router-link>
         <router-link to="/about" class="btn-ghost">认识作者 →</router-link>
