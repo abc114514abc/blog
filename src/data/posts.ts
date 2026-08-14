@@ -34,6 +34,7 @@ export const blogPosts = [
   { id: '025', file: '25.version', title: '软件版本号的规范', summary: '记录开发过程总版本号命名的问题', date: '2026-07-28' },
   { id: '026', file: '26.SQLAlchemy', title: 'SQLAlchemy对象关系映射', summary: '基于python的orm概念，SQLAlchemy的学习', date: '2026-08-01' },
   { id: '027', file: '27.AI', title: 'AI效率提升', summary: '如何规范化的使用ai，提升ai的效率和准确率', date: '2026-08-06' },
+  { id: '028', file: '28.broker', title: '消息中间件(Message Broker)', summary: '消息中间件的概念、作用与部署学习', date: '2026-08-14' },
 ]
 
 /** 根据路由参数 id（如 '001'）查找文章 */
