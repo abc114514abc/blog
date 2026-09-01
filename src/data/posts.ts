@@ -36,6 +36,7 @@ export const blogPosts = [
   { id: '027', file: '27.AI', title: 'AI效率提升', summary: '如何规范化的使用ai，提升ai的效率和准确率', date: '2026-08-06' },
   { id: '028', file: '28.broker', title: '消息中间件(Message Broker)', summary: '消息中间件的概念、作用与部署学习', date: '2026-08-14' },
   { id: '029', file: '29.Instance', title: '关于云服务器（实例）的使用', summary: '主要介绍以Ubuntu为主的服务器相关知识点', date: '2026-08-17' },
+  { id: '030', file: '30.Agent', title: 'Agent开发相关的概念', summary: '介绍一下ai智能体开发的流程和相关知识点', date: '2026-08-31' },
 ]
 
 /** 根据路由参数 id（如 '001'）查找文章 */
